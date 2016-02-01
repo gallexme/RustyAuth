@@ -1,0 +1,12 @@
+[package]
+name = "auth"
+version = "0.1.0"
+authors = ["HeadScript <lostchaos3@gmail.com>"]
+build = "src/build.rs"
+[build-dependencies]
+capnpc = "*"
+
+[dependencies]
+capnp = "0.6.1"
+env_logger = "*"
+log = "0.3.5"
